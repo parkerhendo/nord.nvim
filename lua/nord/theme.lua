@@ -577,7 +577,7 @@ theme.loadPlugins = function()
 		NvimTreeImageFile = { fg = nord.nord15_gui },
 		NvimTreeExecFile = { fg = nord.nord14_gui },
 		NvimTreeSpecialFile = { fg = nord.nord9_gui, style = "underline" },
-		NvimTreeFolderName = { fg = nord.nord10_gui },
+		NvimTreeFolderName = { fg = nord.nord5_gui },
 		NvimTreeEmptyFolderName = { fg = nord.nord1_gui },
 		NvimTreeFolderIcon = { fg = nord.nord4_gui },
 		NvimTreeIndentMarker = { fg = nord.nord1_gui },

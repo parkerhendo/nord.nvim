@@ -571,7 +571,7 @@ theme.loadPlugins = function()
 		TelescopeMatching = { fg = nord.nord8_gui },
 
 		-- NvimTree
-		NvimTreeRootFolder = { fg = nord.nord7_gui, style = "bold" },
+		NvimTreeRootFolder = { fg = nord.nord5_gui, style = "bold" },
 		NvimTreeGitDirty = { fg = nord.nord15_gui },
 		NvimTreeGitNew = { fg = nord.nord14_gui },
 		NvimTreeImageFile = { fg = nord.nord15_gui },

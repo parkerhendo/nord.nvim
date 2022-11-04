@@ -13,7 +13,7 @@ theme.loadSyntax = function()
 		Number = { fg = nord.nord15_gui }, -- a number constant: 5
 		Boolean = { fg = nord.nord9_gui }, -- a boolean constant: TRUE, false
 		Float = { fg = nord.nord15_gui }, -- a floating point constant: 2.3e10
-		Statement = { fg = nord.nord9_gui }, -- any statement
+		Statement = { fg = nord.nord8_gui }, -- any statement
 		Label = { fg = nord.nord9_gui }, -- case, default, etc.
 		Operator = { fg = nord.nord9_gui }, -- sizeof", "+", "*", etc.
 		Exception = { fg = nord.nord9_gui }, -- try, catch, throw

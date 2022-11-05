@@ -28,7 +28,7 @@ theme.loadSyntax = function()
 		Tag = { fg = nord.nord4_gui }, -- you can use CTRL-] on this
 		Delimiter = { fg = nord.nord6_gui }, -- character that needs attention like , or .
 		SpecialComment = { fg = nord.nord8_gui }, -- special things inside a comment
-		Debug = { fg = nord.nord11_gui }, -- debugging statements
+		Debug = { fg = nord.nord8_gui }, -- debugging statements
 		Underlined = { fg = nord.nord14_gui, bg = nord.none, style = "underline" }, -- text that stands out, HTML links
 		Ignore = { fg = nord.nord1_gui }, -- left blank, hidden
 		Todo = { fg = nord.nord13_gui, bg = nord.none, style = "bold,italic" }, -- anything that needs extra attention; mostly the keywords TODO FIXME and XXX
@@ -42,12 +42,12 @@ theme.loadSyntax = function()
   -- Bold highlights --
   if vim.g.nord_bold == false then
 		syntax.htmlH1 = { fg = nord.nord12_gui }
-		syntax.htmlH2 = { fg = nord.nord11_gui }
+		syntax.htmlH2 = { fg = nord.nord8_gui }
 		syntax.htmlH3 = { fg = nord.nord14_gui }
 		syntax.htmlH4 = { fg = nord.nord15_gui }
 		syntax.htmlH5 = { fg = nord.nord9_gui }
 		syntax.markdownH1 = { fg = nord.nord8_gui }
-		syntax.markdownH2 = { fg = nord.nord11_gui }
+		syntax.markdownH2 = { fg = nord.nord8_gui }
 		syntax.markdownH3 = { fg = nord.nord14_gui }
 		syntax.Error = { fg = nord.nord11_gui, bg = nord.none, style = "underline" } -- any erroneous construct without bold
   else

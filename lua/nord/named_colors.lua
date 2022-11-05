@@ -1,6 +1,6 @@
 local nord = {
 	--16 colors
-	black = "#1F2228", -- nord0 in palette
+  black = "#232730", -- nord0 in palette
 	dark_gray = "#2e3440", -- nord1 in palette
 	gray = "#3b4252", -- nord2 in palette
 	light_gray = "#434c5e", -- nord3 in palette

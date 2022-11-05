@@ -6,14 +6,14 @@ theme.loadSyntax = function()
 	-- Syntax highlight groups
 	local syntax = {
 		Type = { fg = nord.nord9_gui }, -- int, long, char, etc.
-		StorageClass = { fg = nord.nord9_gui }, -- static, register, volatile, etc.
-		Structure = { fg = nord.nord9_gui }, -- struct, union, enum, etc.
+		StorageClass = { fg = nord.nord11_gui }, -- static, register, volatile, etc.
+		Structure = { fg = nord.nord8_gui }, -- struct, union, enum, etc.
 		Constant = { fg = nord.nord4_gui }, -- any constant
 		Character = { fg = nord.nord14_gui }, -- any character constant: 'c', '\n'
 		Number = { fg = nord.nord15_gui }, -- a number constant: 5
 		Boolean = { fg = nord.nord9_gui }, -- a boolean constant: TRUE, false
 		Float = { fg = nord.nord15_gui }, -- a floating point constant: 2.3e10
-		Statement = { fg = nord.nord8_gui }, -- any statement
+		Statement = { fg = nord.nord9_gui }, -- any statement
 		Label = { fg = nord.nord9_gui }, -- case, default, etc.
 		Operator = { fg = nord.nord9_gui }, -- sizeof", "+", "*", etc.
 		Exception = { fg = nord.nord9_gui }, -- try, catch, throw
@@ -41,14 +41,14 @@ theme.loadSyntax = function()
 
   -- Bold highlights --
   if vim.g.nord_bold == false then
-		syntax.htmlH1 = { fg = nord.nord8_gui }
-		syntax.htmlH2 = { fg = nord.nord8_gui }
-		syntax.htmlH3 = { fg = nord.nord8_gui }
-		syntax.htmlH4 = { fg = nord.nord8_gui }
-		syntax.htmlH5 = { fg = nord.nord8_gui }
+		syntax.htmlH1 = { fg = nord.nord12_gui }
+		syntax.htmlH2 = { fg = nord.nord11_gui }
+		syntax.htmlH3 = { fg = nord.nord14_gui }
+		syntax.htmlH4 = { fg = nord.nord15_gui }
+		syntax.htmlH5 = { fg = nord.nord9_gui }
 		syntax.markdownH1 = { fg = nord.nord8_gui }
-		syntax.markdownH2 = { fg = nord.nord8_gui }
-		syntax.markdownH3 = { fg = nord.nord8_gui }
+		syntax.markdownH2 = { fg = nord.nord11_gui }
+		syntax.markdownH3 = { fg = nord.nord14_gui }
 		syntax.Error = { fg = nord.nord11_gui, bg = nord.none, style = "underline" } -- any erroneous construct without bold
   else
 		syntax.htmlH1 = { fg = nord.nord8_gui, style = "bold" }

@@ -35,7 +35,7 @@ theme.loadSyntax = function()
 		Conceal = { fg = nord.none, bg = nord.nord0_gui },
 		htmlLink = { fg = nord.nord14_gui, style = "underline" },
 		markdownH1Delimiter = { fg = nord.nord8_gui },
-		markdownH2Delimiter = { fg = nord.nord11_gui },
+		markdownH2Delimiter = { fg = nord.nord8_gui },
 		markdownH3Delimiter = { fg = nord.nord14_gui },
 	}
 
@@ -49,7 +49,7 @@ theme.loadSyntax = function()
 		syntax.markdownH1 = { fg = nord.nord8_gui }
 		syntax.markdownH2 = { fg = nord.nord8_gui }
 		syntax.markdownH3 = { fg = nord.nord14_gui }
-		syntax.Error = { fg = nord.nord11_gui, bg = nord.none, style = "underline" } -- any erroneous construct without bold
+		syntax.Error = { fg = nord.nord8_gui, bg = nord.none, style = "underline" } -- any erroneous construct without bold
   else
 		syntax.htmlH1 = { fg = nord.nord8_gui, style = "bold" }
 		syntax.htmlH2 = { fg = nord.nord11_gui, style = "bold" }

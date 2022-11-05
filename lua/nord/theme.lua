@@ -6,10 +6,10 @@ theme.loadSyntax = function()
 	-- Syntax highlight groups
 	local syntax = {
 		Type = { fg = nord.nord9_gui }, -- int, long, char, etc.
-		StorageClass = { fg = nord.nord9_gui }, -- static, register, volatile, etc.
-		Structure = { fg = nord.nord9_gui }, -- struct, union, enum, etc.
+		StorageClass = { fg = nord.nord11_gui }, -- static, register, volatile, etc.
+		Structure = { fg = nord.nord8_gui }, -- struct, union, enum, etc.
 		Constant = { fg = nord.nord4_gui }, -- any constant
-		Character = { fg = nord.nord4_gui }, -- any character constant: 'c', '\n'
+		Character = { fg = nord.nord14_gui }, -- any character constant: 'c', '\n'
 		Number = { fg = nord.nord15_gui }, -- a number constant: 5
 		Boolean = { fg = nord.nord9_gui }, -- a boolean constant: TRUE, false
 		Float = { fg = nord.nord15_gui }, -- a floating point constant: 2.3e10
@@ -21,7 +21,7 @@ theme.loadSyntax = function()
 		Include = { fg = nord.nord9_gui }, -- preprocessor #include
 		Define = { fg = nord.nord9_gui }, -- preprocessor #define
 		Macro = { fg = nord.nord9_gui }, -- same as Define
-		Typedef = { fg = nord.nord8_gui }, -- A typedef
+		Typedef = { fg = nord.nord9_gui }, -- A typedef
 		PreCondit = { fg = nord.nord13_gui }, -- preprocessor #if, #else, #endif, etc.
 		Special = { fg = nord.nord4_gui }, -- any special symbol
 		SpecialChar = { fg = nord.nord13_gui }, -- special character in a constant
